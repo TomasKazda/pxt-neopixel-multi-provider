@@ -1,14 +1,10 @@
 
-> Open this page at [https://tomaskazda.github.io/pxt-neopixel-multi-provider/](https://tomaskazda.github.io/pxt-neopixel-multi-provider/)
+> Open this page at [https://pslib-cz.github.io/pxt-neopixel-multi-provider/](https://pslib-cz.github.io/pxt-neopixel-multi-provider/)
 
-## Use as Extension
+## The following contributors have added their LED color sequence combinations to the repository with their code:
 
-This repository can be added as an **extension** in MakeCode.
+* Novakovic
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/tomaskazda/pxt-neopixel-multi-provider** and import
 
 ## Edit this project
 
@@ -16,7 +12,7 @@ To edit this repository in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
-* paste **https://github.com/tomaskazda/pxt-neopixel-multi-provider** and click import
+* paste **https://github.com/pslib-cz/pxt-neopixel-multi-provider** and click import
 
 #### Metadata (used for search, rendering)
 
