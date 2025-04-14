@@ -14,6 +14,9 @@
         "README.md",
         "types.ts",
         "template.ts",
+        "neuber.ts",
+        "nosek.ts",
+        "kazda.ts"
     ],
     "testFiles": [
         "test.ts"
