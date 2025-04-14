@@ -8,6 +8,7 @@
         "neopixel": "github:microsoft/pxt-neopixel#v0.7.6"
     },
     "files": [
+        "falta.ts",
         "novakovic.ts",
         "main.ts",
         "README.md",
