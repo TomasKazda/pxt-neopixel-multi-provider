@@ -14,7 +14,6 @@
         "README.md",
         "types.ts",
         "template.ts",
-        "kazda.ts"
     ],
     "testFiles": [
         "test.ts"
