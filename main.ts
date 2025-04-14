@@ -17,6 +17,7 @@ const startOnce = (stripLength: number): void => {
         Nosek.provider,
         Kazda.provider,
         Kreisinger.provider,
+        Lahoda.provider
     ];
 
     for (let provider of providers) {

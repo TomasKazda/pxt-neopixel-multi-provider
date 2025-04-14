@@ -16,7 +16,8 @@
         "template.ts",
         "neuber.ts",
         "nosek.ts",
-        "kazda.ts"
+        "kazda.ts",
+        "lahoda.ts"
     ],
     "testFiles": [
         "test.ts"
