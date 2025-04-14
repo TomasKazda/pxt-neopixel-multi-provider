@@ -12,7 +12,8 @@
         "main.ts",
         "README.md",
         "types.ts",
-        "template.ts"
+        "template.ts",
+        "kramarova.ts"
     ],
     "testFiles": [
         "test.ts"
