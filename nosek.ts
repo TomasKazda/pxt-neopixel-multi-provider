@@ -1,7 +1,7 @@
-namespace Nametemplate {
+namespace Nosek {
     let stripLength: number = 0;
     const stripData: Array<Line> = [];
-    
+
     function init(length: number): void {
         stripLength = length;
         stripData.splice(0, stripData.length)

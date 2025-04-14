@@ -9,11 +9,17 @@
     },
     "files": [
         "novakovic.ts",
+        "hlousek.ts",
         "main.ts",
         "README.md",
         "types.ts",
         "template.ts",
-        "dolansky.ts"
+        "dolansky.ts",
+        "Knobloch.ts",
+        "neuber.ts",
+        "nosek.ts",
+        "kazda.ts",
+        "lahoda.ts",
     ],
     "testFiles": [
         "test.ts"

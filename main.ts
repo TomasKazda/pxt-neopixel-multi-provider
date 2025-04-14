@@ -10,10 +10,15 @@ const startOnce = (stripLength: number): void => {
 
     // Registrace všech poskytovatelů sekvencí (studentů)
     providers = [
-        NameTemplate.provider,
+        Nametemplate.provider,
         Novakovic.provider,
-        Dolansky.provider
-        
+        Dolansky.provider,
+        Hlousek.provider,
+        Neuber.provider,
+        Nosek.provider,
+        Kazda.provider,
+        Kreisinger.provider,
+        Lahoda.provider
     ];
 
     for (let provider of providers) {
@@ -43,11 +48,10 @@ basic.forever(() => {
 
     basic.pause(line.delay);
 
-    if (switchRequested)
-    {
+    if (switchRequested) {
         switchRequested = false;
         switchToNextProvider();
     }
 })
 
-input.onButtonPressed(Button.A, () => {switchRequested = true})
+input.onButtonPressed(Button.A, () => { switchRequested = true })
