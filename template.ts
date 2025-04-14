@@ -1,4 +1,4 @@
-namespace NameTemplate {
+namespace Knobloch {
     let stripLength: number = 0;
     const stripData: Array<Line> = [];
     
