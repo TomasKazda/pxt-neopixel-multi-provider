@@ -12,6 +12,8 @@ const startOnce = (stripLength: number): void => {
     providers = [
         NameTemplate.provider,
         Novakovic.provider,
+        Dolansky.provider
+        
     ];
 
     for (let provider of providers) {
