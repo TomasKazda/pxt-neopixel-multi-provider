@@ -12,6 +12,11 @@ const startOnce = (stripLength: number): void => {
     providers = [
         NameTemplate.provider,
         Novakovic.provider,
+        Hlousek.provider,
+        Neuber.provider,
+        Nosek.provider,
+        Kazda.provider,
+        Kreisinger.provider,
         Lahoda.provider
     ];
 
@@ -42,11 +47,10 @@ basic.forever(() => {
 
     basic.pause(line.delay);
 
-    if (switchRequested)
-    {
+    if (switchRequested) {
         switchRequested = false;
         switchToNextProvider();
     }
 })
 
-input.onButtonPressed(Button.A, () => {switchRequested = true})
+input.onButtonPressed(Button.A, () => { switchRequested = true })
