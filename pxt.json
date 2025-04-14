@@ -12,7 +12,8 @@
         "main.ts",
         "README.md",
         "types.ts",
-        "template.ts"
+        "template.ts",
+        "nosek.ts"
     ],
     "testFiles": [
         "test.ts"
