@@ -10,9 +10,9 @@ const startOnce = (stripLength: number): void => {
 
     // Registrace všech poskytovatelů sekvencí (studentů)
     providers = [
-        Knobloch.provider,
+        Nametemplate.provider,
         Novakovic.provider,
-        
+        Knobloch.provider,
     ];
 
     for (let provider of providers) {
