@@ -9,6 +9,7 @@
     },
     "files": [
         "novakovic.ts",
+        "hlousek.ts",
         "main.ts",
         "README.md",
         "types.ts",
