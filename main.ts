@@ -12,6 +12,7 @@ const startOnce = (stripLength: number): void => {
     providers = [
         NameTemplate.provider,
         Novakovic.provider,
+        Hlousek.provider,
     ];
 
     for (let provider of providers) {
@@ -41,11 +42,10 @@ basic.forever(() => {
 
     basic.pause(line.delay);
 
-    if (switchRequested)
-    {
+    if (switchRequested) {
         switchRequested = false;
         switchToNextProvider();
     }
 })
 
-input.onButtonPressed(Button.A, () => {switchRequested = true})
+input.onButtonPressed(Button.A, () => { switchRequested = true })
