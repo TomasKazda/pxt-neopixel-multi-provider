@@ -13,16 +13,13 @@
         "main.ts",
         "README.md",
         "types.ts",
-
-        "template.ts"
-        "Knobloch.ts"
-=======
         "template.ts",
+        "dolansky.ts",
+        "Knobloch.ts",
         "neuber.ts",
         "nosek.ts",
         "kazda.ts",
-        "lahoda.ts"
-
+        "lahoda.ts",
     ],
     "testFiles": [
         "test.ts"
