@@ -13,7 +13,8 @@
         "main.ts",
         "README.md",
         "types.ts",
-        "template.ts"
+        "template.ts",
+        "kazda.ts"
     ],
     "testFiles": [
         "test.ts"
