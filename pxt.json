@@ -13,6 +13,7 @@
         "README.md",
         "types.ts",
         "template.ts"
+        "Knobloch.ts"
     ],
     "testFiles": [
         "test.ts"
