@@ -10,8 +10,9 @@ const startOnce = (stripLength: number): void => {
 
     // Registrace všech poskytovatelů sekvencí (studentů)
     providers = [
-        NameTemplate.provider,
+        Nametemplate.provider,
         Novakovic.provider,
+
         Hlousek.provider,
         Neuber.provider,
         Nosek.provider,
